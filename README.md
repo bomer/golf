@@ -11,7 +11,7 @@ Crud data on a table.
 	- Remove JSON Encode and moved to just a return function. 
 	- Added a utils file and code to turn an associate array into a html table on the screen
 	- added some CSS to make page dark because its 2am.
-- [] Add new Score
+- [ ] Add new Score
 	- Create a Show Form function, to output a new form with out fields
 	- Add each field, with name + Type.
 	- Make sure to match the name attrib on each input to our data. If no name it wont come through
@@ -19,8 +19,10 @@ Crud data on a table.
 	- Create an add score function, that will process this data when recieved if the page is a post request.
 	- To do this, we need to make sure method="post" is added.
 
-- [] Delete a score
-- [] Update a score
+- [ ] Delete a score
+	- Added a delete link in the util for generate form, as well as handling in the index page.
+- [ ] Update a score
+	-Not started
 
 ## Setup
 
