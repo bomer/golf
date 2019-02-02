@@ -1,0 +1,20 @@
+body{
+	background: #282923;
+	color:white;
+}
+a{
+	color:#df2472;
+}
+table, tr{
+	border: white 1px solid;
+}
+th, td {
+	border-bottom: white 1px solid;
+	padding: 15px;
+}
+input{
+	display: block;
+}
+h2{
+	margin:20px;
+}
