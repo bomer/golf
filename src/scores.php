@@ -46,7 +46,8 @@
 
 			if (mysqli_query($this->conn, $sql)) {
 				echo "New record created successfully";
-				header('Location: '."/index.php?success=true", true, 303);
+				$goto = $_SERVER["SERVER_NAME"]. ":". $_SERVER["SERVER_PORT"] . $_SERVER["REQUEST_URI"] . "?success=true";
+				header('Location: '."http://".$goto, true, 303);
 			} else {
 				echo "Error: " . $sql . "<br>" . mysqli_error($this->conn);
 			}
